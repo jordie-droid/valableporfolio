@@ -12,12 +12,12 @@ $decorationTwo : #e4e4e4;
 // polices
 @font-face{
     font-family: "roboto-bold";
-    src: url("fonts/Roboto-Bold.ttf");
+    src: url("/fonts/Roboto-Bold.ttf");
 }
 
 @font-face{
     font-family: "roboto-regular";
-    src: url("fonts/Roboto-Regular.ttf");
+    src: url("/fonts/Roboto-Regular.ttf");
 }
 // police variable
 $policeTitle : "roboto-bold";
