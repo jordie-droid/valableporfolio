@@ -1,0 +1,62 @@
+{
+    "contacts":[
+        {
+            "Phone": "+243813294109",
+            "mail": "redilutunx@gmail.com",
+            "github": "Jordie-droid",
+            "likendin": "Jordie Lutundula"
+        }
+    ],
+    "idiomskills": [
+        {
+            "language": "English",
+            "percent" : 60
+        },
+        {
+            "language": "French",
+            "percent": 70
+        },
+        {
+            "language": "Lingala",
+            "percent": 85
+        },
+        {
+            "language": "Swahili",
+            "percent": 60
+        }
+    ],
+    "computerSkills": [
+        {
+            "logo": "database/java.svg",
+            "designation": "Java"
+        },
+        {
+            "logo": "database/file-type-html.svg",
+            "designation": "Html"
+        },
+        {
+            "logo": "database/file-type-css.svg",
+            "designation": "Css"
+        },
+        {
+            "logo": "database/javascript.svg",
+            "designation": "JavaScript"
+        },
+        {
+            "logo": "database/file-type-sqlite.svg",
+            "designation": "Sqlite"
+        },
+        {
+            "logo": "database/mysql.svg",
+            "designation": "Mysql"
+        },
+        {
+            "logo": "database/postgresql.svg",
+            "designation": "Postgres"
+        },
+        {
+            "logo": "database/sass.svg",
+            "designation": "Sass"
+        }
+    ]
+}

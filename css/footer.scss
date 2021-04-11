@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.footer--style{
+        background-color: $darkColor;
+        color: $mainColor;
+    }
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    p{
+        font-family: $policeBody;
+        font-weight: 400;
+    }
+}

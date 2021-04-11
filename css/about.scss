@@ -1,0 +1,100 @@
+.about{
+    height: auto;
+    &.about--style{
+        background-color: $mainColor;
+        color: $darkColor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0 50px;
+    }
+    .title1{
+        padding: 20px;
+        background-color: $decorationOne;
+        color: $mainColor;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-bottom: 50px;
+    }
+    &__container-about{
+        display: flex;
+        justify-content: space-around;
+        &.container-about--style{
+            width: 100%;
+            font-family: $policeBody;
+        }
+        .container-about__text{
+            width: 40%;
+            height: 50%;
+            padding: 0 10px;
+            strong{
+                font-weight: 400;
+            }
+            em{
+                font-style: normal;
+            }
+            a{
+                color: $decorationOne;
+                text-decoration: none;
+            }
+        }
+        .container-about__image{
+            position: relative;
+            height: 440px;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            align-items: center;
+            .image__container{
+                width: 100%;
+                max-width: 100%;
+                height: 90%;
+                display: flex;
+                justify-content: center;
+                &.container--style{ 
+                    background-color: $decorationTwo; 
+                    border-radius: 10px;                  
+                    overflow: hidden;
+                }
+                img{
+                    position: relative;
+                    width: 200px;
+                    height: auto;
+                    object-fit: cover;
+                    top: 38px;
+                    left: 10px;
+                }
+            }
+            .image__cite{
+                &.cite--style{
+                    font-weight: bold;
+                    text-align: center;
+                    position: relative;
+                    top: -35px;
+                    width: 100%;
+                    color: $mainColor;
+                    background-color: $decorationOne;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width:738px){
+    .about__container-about{
+        flex-direction: column-reverse;
+        align-items: center;
+        .container-about__text{
+            width: 90%;
+            padding-right: 20px;
+        }
+        .container-about__image{
+            width: 90%;
+        }
+        
+    }
+}
