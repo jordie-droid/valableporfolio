@@ -12,7 +12,8 @@
 const langContainer = document.querySelector('.lang__lang-container');
 const containerTechno = document.querySelector('.techno__techno-container');
 
-fetch('http://localhost:3100/idiomSkills')
+// fetch('http://localhost:3100/idiomSkills')
+fetch('https://my-json-server.typicode.com/jordie-droid/portfoliodatabase/idiomSkills')
 .then(function(response){
     return response.json();
 })
@@ -32,7 +33,8 @@ fetch('http://localhost:3100/idiomSkills')
     });
 });
 
-fetch('http://localhost:3100/computerSkills')
+// fetch('http://localhost:3100/computerSkills')
+fetch('https://my-json-server.typicode.com/jordie-droid/portfoliodatabase/computerSkills')
 .then(function(response){
     return response.json();
 })
