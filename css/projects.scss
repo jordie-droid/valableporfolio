@@ -28,9 +28,14 @@
       background-color: $mainColor;
       box-shadow: 0 0 4px $darkColor;
       transition: 0.3s !important;
-      img {
+      .card__image-container {
         width: 100%;
-        height: auto;
+        height: 200px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
       .card__description {
         .title3 {
