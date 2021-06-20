@@ -1,113 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 // colors
-$mainColor : #fff;
-$darkColor : #000;
-$decorationOne : #d92950;
-$decorationTwo : #e4e4e4;
+$mainColor: #fff;
+$darkColor: #000;
+$decorationOne: #d92950;
+$decorationTwo: #e4e4e4;
 
 // polices
-@font-face{
-    font-family: "roboto-bold";
-    src: url("/fonts/Roboto-Bold.ttf");
+@font-face {
+  font-family: "roboto-bold";
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 
-@font-face{
-    font-family: "roboto-regular";
-    src: url("/fonts/Roboto-Regular.ttf");
+@font-face {
+  font-family: "roboto-regular";
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 // police variable
-$policeTitle : "roboto-bold";
-$policeBody : "roboto-regular";
+$policeTitle: "roboto-bold";
+$policeBody: "roboto-regular";
 
 //margins
-.m10{
-    margin: 10px;
+.m10 {
+  margin: 10px;
 }
 
-.ml10{
-    margin-left: 10px;
+.ml10 {
+  margin-left: 10px;
 }
 
-.mr10{
-    margin-right: 10px;
+.mr10 {
+  margin-right: 10px;
 }
 
-.mb10{
-    margin-bottom: 10px;
+.mb10 {
+  margin-bottom: 10px;
 }
 
-.mb3{
-    margin-bottom: 3px;
+.mb3 {
+  margin-bottom: 3px;
 }
 
-.mt10{
-    margin-top: 10px;
+.mt10 {
+  margin-top: 10px;
 }
 
 //paddings
 
-.p10{
-    padding: 10px;
+.p10 {
+  padding: 10px;
 }
 
-.p20{
-    padding: 20px;
+.p20 {
+  padding: 20px;
 }
 
 //titles
-.title1{
-    font-family: $policeTitle;
-    font-size: 2rem;
+.title1 {
+  font-family: $policeTitle;
+  font-size: 2rem;
 }
 
-.title2{
-    font-family: $policeTitle;
-    font-size: 1.5rem;
+.title2 {
+  font-family: $policeTitle;
+  font-size: 1.5rem;
 }
 
-.title3{
-    font-family: $policeTitle;
-    font-size: 1.2rem;
+.title3 {
+  font-family: $policeTitle;
+  font-size: 1.2rem;
 }
 
 //underlines
-.underline80{
-    width: 80%;
-    margin: 10px 0;
+.underline80 {
+  width: 80%;
+  margin: 10px 0;
 }
 
 //progressBar
 
-.progress-container{
-    width: 100%;
-    height: 18px;
-    background-color: $darkColor;
-    border-radius: 5px;
+.progress-container {
+  width: 100%;
+  height: 18px;
+  background-color: $darkColor;
+  border-radius: 5px;
 }
-.progress-content{
-    background-color: $decorationOne;
-    font-family: $policeBody;
-    height: 100%;
-    color: $mainColor;
-    text-align: center;
-    border-radius: 5px;
+.progress-content {
+  background-color: $decorationOne;
+  font-family: $policeBody;
+  height: 100%;
+  color: $mainColor;
+  text-align: center;
+  border-radius: 5px;
 }
-.techno-container{
-    padding: 10px;
-    font-family: $policeBody;
-    color: $darkColor;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    img{
-        width: 70px;
-        height: 70px;
-    }
+.techno-container {
+  padding: 10px;
+  font-family: $policeBody;
+  color: $darkColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 // import files
-@import 'nav.scss', 'banner.scss', 'about.scss', 'skills.scss', 'projects.scss', 'contacts.scss', 'footer.scss';
+@import "nav.scss", "banner.scss", "about.scss", "skills.scss", "projects.scss",
+  "contacts.scss", "footer.scss";

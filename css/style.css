@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: "roboto-bold";
-  src: url("/fonts/Roboto-Bold.ttf");
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
   font-family: "roboto-regular";
-  src: url("/fonts/Roboto-Regular.ttf");
+  src: url(../fonts/Roboto-Regular.ttf);
 }
 .m10 {
   margin: 10px;
@@ -452,7 +452,7 @@
 .projects__projects-container .projects-container__card {
   background-color: #fff;
   box-shadow: 0 0 4px #000;
-  transition: 0.3s;
+  transition: 0.3s !important;
 }
 .projects__projects-container .projects-container__card img {
   width: 100%;
@@ -473,7 +473,7 @@
   color: #fff;
 }
 .projects__projects-container .projects-container__card:hover {
-  transform: scale(1.04);
+  transform: scale(1.04) !important;
 }
 
 @media screen and (max-width: 970px) {
