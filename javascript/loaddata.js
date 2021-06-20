@@ -74,6 +74,7 @@ fetch("https://jp-backoffice.herokuapp.com/api/projects/")
       projectDescription.classList.add("card__description");
       projectDescription.classList.add("p10");
       const projectName = document.createElement("h3");
+      projectName.classList.add("title3");
       projectName.innerText = project.NAME;
       const descriptionText = document.createElement("p");
       descriptionText.innerText = project.DESCRIPTION;
